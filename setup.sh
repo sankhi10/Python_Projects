@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 # Instructions for automated framework setup
 # Setup script for Playwright Python Framework (Linux/Mac)
 
