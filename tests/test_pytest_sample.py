@@ -6,11 +6,6 @@ class TestSampleClass:
         sleep(10)
         assert True
 
-    @pytest.mark.regression
-    def test_always_fail(self):
-        sleep(10)
-        assert False
-
     @pytest.mark.smoke
     def test_upper(self):
         assert "loud noises".upper() == "LOUD NOISES"
@@ -40,7 +35,7 @@ def test_sum(sequence):
 def test_max(sequence):
     assert max(sequence) == 3
 
-
+'''
 @pytest.mark.parametrize("palindrome", [
     ' ',
     'a',
@@ -49,3 +44,10 @@ def test_max(sequence):
     ])
 def test_palindrome(palindrome):
     assert palindrome[] == palindrome[::-1]
+
+    
+    @pytest.mark.regression
+    def test_always_fail(self):
+        sleep(10)
+        assert False
+'''
