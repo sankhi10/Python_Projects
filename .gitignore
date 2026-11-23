@@ -1,3 +1,11 @@
 .env
 __pycache__
 config.xml
+
+# Reports
+reports/
+logs/
+screenshots/
+videos/
+traces/
+downloads/
