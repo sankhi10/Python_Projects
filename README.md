@@ -1,9 +1,9 @@
-# Playwright Python Test Automation Framework
+># Playwright Python Test Automation Framework
 ---
 This test automation framework built with **Playwright** and **Python**, implementing industry best practices including Page Object Model, parallel execution, and CI/CD integration.
 
 
-### Key Features
+>## Key Features
 ---
 
 | Feature | Description |
@@ -17,51 +17,54 @@ This test automation framework built with **Playwright** and **Python**, impleme
 | Type Hints |	Full annotations for IDE support |
 
 
-### Project Structure
+>## Project Structure
 ---
 
 
 
-### Quick Start
+>## Quick Start
 ---
 
 
-### Running Tests
+>## Running Tests
 ---
-> #Run all test >
+
+```bash
+#Run all test
 pytest
 
->#Run specific markers
+#Run specific markers
 pytest -m smoke
 pytest -m regression
 
->Run specific test
+#Run specific test
 pytest test_login.py
 pytest est/test_login.py
 pytest -k test_add_item
 
->Run in specific browser
+#Run in specific browser
 pytest --browser webkit
 
->Run in headed mode
+#Run in headed mode
 pytest --headed
 
->Run tests in parallel
+#Run tests in parallel
 pytest --numprocesses 2 
 (assuming pytest-xdist is installed)
+```
 
 
-### Configuration
+>## Configuration
 ---
 
 
 
-### Writing Tests
+>## Writing Tests
 ---
 
 
 
-### Reports
+>## Reports
 ---
 | Report Type | Location |
 |-------------|----------|
@@ -70,5 +73,5 @@ pytest --numprocesses 2
 | Logs | logs/test_execution.log |
 
 
-### CI/CD
+>## CI/CD
 ---
