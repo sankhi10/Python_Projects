@@ -28,7 +28,7 @@ This test automation framework built with **Playwright** and **Python**, impleme
 
 ### Running Tests
 ---
->#Run all test
+> #Run all test >
 pytest
 
 >#Run specific markers
