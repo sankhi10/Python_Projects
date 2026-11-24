@@ -28,6 +28,27 @@ This test automation framework built with **Playwright** and **Python**, impleme
 
 ### Running Tests
 ---
+>#Run all test
+pytest
+
+>#Run specific markers
+pytest -m smoke
+pytest -m regression
+
+>Run specific test
+pytest test_login.py
+pytest est/test_login.py
+pytest -k test_add_item
+
+>Run in specific browser
+pytest --browser webkit
+
+>Run in headed mode
+pytest --headed
+
+>Run tests in parallel
+pytest --numprocesses 2 
+(assuming pytest-xdist is installed)
 
 
 ### Configuration
